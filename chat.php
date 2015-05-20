@@ -5,7 +5,7 @@
 		<?php
 		$_POST = 
 		?>
-		<form method="post" action="<?php echo $_POST?>">
+		<form method="post" action="<?php echo $_POST;?>">
 			<input type="text" name="value">
 			<input type="submit">
 		</form>
